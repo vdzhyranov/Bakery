@@ -26,7 +26,7 @@
   &__cookie {
     width: 100px;
     height: 100px;
-    background-image: url(/images/cookie.svg);
+    background-image: url(../../images/cookie.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -141,7 +141,7 @@
   }
 
   @media (max-width: 1200px) {
-    &__cookie {
+    .map__cookie {
       background-size: 100%;
     }
 
@@ -155,14 +155,14 @@
     }
   }
   @media (max-width: 800px) {
-    &__cookie {
+    .map__cookie {
       background-size: 80%;
     }
   }
 
   @media (max-width: 500px) {
 
-    &__cookie {
+    .map__cookie {
       background-size: 70%;
     }
 
@@ -204,7 +204,7 @@
 }
 
 @media (max-width: 350px) {
-  &__cookie {
+  .map__cookie {
     background-size: 50%;
   }
 }
