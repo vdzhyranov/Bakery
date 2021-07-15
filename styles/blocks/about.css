@@ -1,0 +1,43 @@
+.about__blog {
+  max-width: 2000px;
+}
+
+.about__info {
+  max-width: 754px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .about__info {
+    margin: 0 50px;
+  }
+}
+
+.about__info-heading {
+  font-size: 32px;
+  font-weight: 600;
+  color: #253757;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 500px) {
+  .about__info-heading {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+}
+
+.about__info-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #6c788b;
+}
+
+@media (max-width: 500px) {
+  .about__info-text {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

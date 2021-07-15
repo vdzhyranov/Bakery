@@ -1,0 +1,101 @@
+.process__cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 230px 230px;
+      grid-template-columns: 230px 230px;
+  -ms-grid-rows: (auto)[5];
+      grid-template-rows: repeat(5, auto);
+  gap: 30px;
+}
+
+@media (max-width: 900px) {
+  .process__cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .process__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 0;
+  }
+}
+
+.process__titel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 104px;
+}
+
+@media (max-width: 900px) {
+  .process__titel {
+    margin-top: 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    max-width: 300px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 550px) {
+  .process__titel {
+    text-align: center;
+  }
+}
+
+.process__titel-name {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 19px;
+  color: #c0cdd7;
+}
+
+.process__titel-head {
+  font-size: 32px;
+  line-height: 42px;
+  color: #253757;
+  max-width: 362px;
+  margin-top: 16px;
+}
+
+@media (max-width: 550px) {
+  .process__titel-head {
+    font-size: 30px;
+    margin-top: 8px;
+  }
+}
+
+.process__titel-text {
+  font-size: 14px;
+  line-height: 21px;
+  color: #6c788b;
+  max-width: 360px;
+  margin-top: 24px;
+}
+
+@media (max-width: 550px) {
+  .process__titel-text {
+    margin: 16px 15px 0;
+    font-size: 0.8em;
+  }
+}
+/*# sourceMappingURL=process.css.map */
