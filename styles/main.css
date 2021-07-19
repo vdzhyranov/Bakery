@@ -63,6 +63,7 @@ a {
   justify-content: space-around;
   margin: 50px auto;
   max-width: 2000px;
+  padding: 0 30px;
 }
 @media (max-width: 500px) {
   .bakery__katalog {
@@ -675,7 +676,7 @@ a {
 .number__btn_down, .number__btn_up {
   background: none;
   border: none;
-  background-image: url(/images/Vector-1.svg);
+  background-image: url(../images/Vector-1.svg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -827,7 +828,7 @@ a {
 
   .titel__more {
     padding-left: 15px;
-    background-image: url(/images/cup.png);
+    background-image: url(../images/cup.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -835,7 +836,7 @@ a {
 }
 @media (max-width: 320px) {
   .titel__more {
-    background-image: url(/images/mobbg.jpg);
+    background-image: url(../images/mobbg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1038,11 +1039,11 @@ a {
     margin-bottom: 30px;
   }
   .map .map__btn-min {
-    background-image: url(/images/min.svg);
+    background-image: url(../images/min.svg);
     margin-right: 30px;
   }
   .map .map__btn-pl {
-    background-image: url(/images/pl.svg);
+    background-image: url(../images/pl.svg);
   }
 }
 

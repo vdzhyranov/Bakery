@@ -5,6 +5,7 @@
     justify-content: space-around;
     margin: 50px auto;
     max-width: 2000px;
+    padding: 0 30px;
 
     @include onLap {
       & {
