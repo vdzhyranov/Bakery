@@ -23,6 +23,12 @@
     &:focus {
       border-bottom: 2px solid $Croissant;
     }
+
+    &::placeholder {
+      font-family: "Rubik", sans-serif;
+      font-size: 14px;
+  
+    } 
   }
 
   &__label {

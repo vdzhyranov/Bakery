@@ -317,6 +317,10 @@ a {
 .forms__input:focus {
   border-bottom: 2px solid #e39a3b;
 }
+.forms__input::placeholder {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+}
 .forms__label {
   position: absolute;
   top: 1%;
