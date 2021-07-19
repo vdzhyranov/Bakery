@@ -1,0 +1,43 @@
+.main {
+
+  &__header {
+    justify-content: space-between;
+    position: relative;
+    margin: 20px auto -80px;
+    display: grid;
+    grid-template-columns: 3% 7% 20% 65% 5%;
+    z-index: 2;
+    max-width: 2000px;
+  }
+
+  &__titel {
+    display: flex;
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+
+  &__blog {
+    margin: 0 60px 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__connection {
+    margin-bottom: 40px;
+  }
+
+  &__bakershops {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $Cream;
+  }
+
+}
+
+@media(max-width:1200px) {
+  .main__titel {
+    display: block;
+  }
+}
